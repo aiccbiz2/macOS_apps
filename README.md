@@ -8,6 +8,7 @@ A collection of lightweight macOS menubar apps built for everyday productivity.
 |---|-----|-------------|------|
 | 01 | [Claude Code Usage Monitor](01_ClaudeCode_Status/) | Battery-style indicator showing Claude Code API usage remaining | Swift + SwiftUI |
 | 02 | [Keep Awake](02_Keep_Awake/) | Prevent Mac from sleeping with periodic mouse movement | Python + rumps |
+| 03 | [Agent Monitor](03_Agent_Monitor/) | Menubar dashboard for monitoring launchd automation agents | Python + rumps |
 
 ## Why
 
@@ -31,6 +32,14 @@ open build/ClaudeUsage.app
 cd 02_Keep_Awake
 pip install rumps pyautogui
 python keep_awake_app.py
+```
+
+### Agent Monitor
+
+```bash
+cd 03_Agent_Monitor
+pip install rumps
+python agent_monitor.py
 ```
 
 See each app's README for detailed build and install instructions.
